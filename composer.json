@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "nera/simple-navigation",
+    "description": "This is an addon for Nera static site generator for Laravel",
     "keywords": [
-        ":vendor_name",
+        "nera",
         "laravel",
-        ":package_slug"
+        "simple-navigation"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/nera/simple-navigation",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Michael Becker",
+            "email": "info@michael-becker-berlin.de",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "nera\\SimpleNavigation\\": "src",
+            "nera\\SimpleNavigation\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "nera\\SimpleNavigation\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "nera\\SimpleNavigation\\SimpleNavigationServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "SimpleNavigation": "nera\\SimpleNavigation\\Facades\\SimpleNavigation"
             }
         }
     },

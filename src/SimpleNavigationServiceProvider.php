@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace nera\SimpleNavigation;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use nera\SimpleNavigation\Commands\SimpleNavigationCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class SimpleNavigationServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('simple-navigation')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_simple-navigation_table')
+            ->hasCommand(SimpleNavigationCommand::class);
     }
 }

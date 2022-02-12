@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace nera\SimpleNavigation\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class SimpleNavigationCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'simple-navigation';
 
     public $description = 'My command';
 
