@@ -3,8 +3,8 @@
 namespace nera\SimpleNavigation\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use nera\SimpleNavigation\SimpleNavigationServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

@@ -4,7 +4,6 @@ namespace nera\SimpleNavigation;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use nera\SimpleNavigation\Commands\SimpleNavigationCommand;
 
 class SimpleNavigationServiceProvider extends PackageServiceProvider
 {
