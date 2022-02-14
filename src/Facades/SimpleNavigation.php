@@ -13,4 +13,11 @@ class SimpleNavigation extends Facade
     {
         return 'simple-navigation';
     }
+
+    public static function addAppData(array $appData): array
+    {
+        $appData['simple_navigation'] = config('simple-navigation.elements');
+
+        return $appData;
+    }
 }

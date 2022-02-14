@@ -18,8 +18,6 @@ class SimpleNavigationServiceProvider extends PackageServiceProvider
         $package
             ->name('simple-navigation')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_simple-navigation_table')
-            ->hasCommand(SimpleNavigationCommand::class);
+            ->hasViews();
     }
 }
