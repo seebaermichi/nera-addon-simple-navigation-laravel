@@ -1,5 +1,9 @@
 # This is an addon for Nera static site generator for Laravel
 
+> [!WARNING]
+> **Deprecated and archived.** This Laravel experiment was never released and is no longer maintained.
+> Nera lives on as a Node.js static site generator: [nera.js.org](https://nera.js.org) · [`@nera-static/nera`](https://www.npmjs.com/package/@nera-static/nera) · [seebaermichi/nera](https://github.com/seebaermichi/nera).
+
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/nera/simple-navigation.svg?style=flat-square)](https://packagist.org/packages/nera/simple-navigation)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/nera/simple-navigation/run-tests?label=tests)](https://github.com/nera/simple-navigation/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/nera/simple-navigation/Check%20&%20fix%20styling?label=code%20style)](https://github.com/nera/simple-navigation/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
